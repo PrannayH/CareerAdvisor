@@ -59,8 +59,3 @@ const API_KEY = 'YOUR_API_KEY_HERE';
 
 Launch the website and start interacting with the conversational AI to receive personalized career advice, educational recommendations, and more.
 
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
