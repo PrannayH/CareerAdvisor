@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	
+	<!-- JS FILES -->
+	<script type="module" src="index.js"></script>
+	<script type="module" src="env.js"></script>
+	
+	<head>
+		
+		<title>Career Crafters</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> 
+		<link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mukta:wght@200&family=Tektur&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Poppins:wght@400;700&display=swap" rel="stylesheet" /> 
+		
+		<!-- CSS FILE -->
+		<link rel="stylesheet" href="index.css" />
+	</head>
+
+	<body> 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+
+		<header>
+			<img src="./images/Logo.png" alt="MoviePitch">
+			<a href="/"><span>Career </span>Crafters</a>
+		</header>
+		
+		<main>	
+			<!-- The Setup -->	
+			<section id="setup-container">
+				<div class="setup-inner">
+					<img src="./images/Person.png"> 
+					<div class="speech-bubble-ai" id="speech-bubble-ai">
+						<p id="movie-boss-text">
+							Hi! I'm Aurelios how can I help you?
+						</p>
+					</div>
+				</div>
+				<div class="setup-inner setup-input-container" id="setup-input-container">
+					<textarea id="setup-textarea" placeholder="Please enter your interests and let's get started on this exciting journey together! 🚀"></textarea>
+					<button class="send-btn" id="send-btn" aria-label="send">
+							<img src="./images/send-btn-icon.png" alt="send">
+					</button>
+				</div>
+			</section>	
+			<!-- The Output -->	
+			<section class="output-container" id="output-container">
+				<div id="output-img-container" class="output-img-container"></div>
+				<h2 id="heading1"></h2>
+				<p id="output-career"></p>
+				<h2 id="heading2"></h2>
+				<p id="output-edu"></p>
+				<h2 id="heading3"></h2>
+				<p id="output-place"></p>
+				
+			</section>
+		</main>	
+		<footer>
+			&copy; 2023 Career Crafters All rights reserved
+		</footer>
+		
+	</body>
+
+</html>
