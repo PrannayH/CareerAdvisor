@@ -60,21 +60,8 @@ const API_KEY = 'YOUR_API_KEY_HERE';
 
 Launch the website and start interacting with the conversational AI to receive personalized career advice, educational recommendations, and more.
 
-## Contributing
-
-We welcome contributions to enhance CareerCrafters! If you'd like to contribute, please follow our [contribution guidelines](CONTRIBUTING.md).
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgments
-
-- Special thanks to OpenAI for providing the ChatGPT API.
-
-Thank you for choosing CareerCrafters! We hope it helps you navigate your career path with confidence. If you have any questions or feedback, feel free to reach out.
-
-Happy exploring!
-
-[Your Name]
-[Your Contact Information]
