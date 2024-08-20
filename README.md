@@ -1,61 +1,65 @@
+# CareerCrafter
+## Career counselling website powered by ChatGPT
 
+Welcome to *Career Crafters*! This project leverages OpenAI's API to provide career advice based on user interests, including career choices, educational paths, and recommended countries to study in. It also generates a visual representation related to the user's interests.
 
-# CareerCrafters
+## Features
 
-Welcome to CareerCrafters, an innovative conversational AI-powered website designed to be your virtual career counselor. This project leverages ChatGPT API keys and utilizes web development tools such as HTML, CSS, and Javascript to create a seamless and interactive platform.
+- *Interest-Based Career Suggestions:* Input your interests to receive career options tailored to those interests.
+- *Educational Path Recommendations:* Get advice on the best educational paths for the suggested careers.
+- *Study Location Suggestions:* Find out which countries are ideal for pursuing the recommended education.
+- *Image Generation:* Receive a visual description related to your interests.
 
-## Project Overview
+## How It Works
 
-CareerCrafters is aimed at assisting users in making informed decisions about their careers. The platform offers a range of features including:
+1. *User Input:* Enter your interests in the provided textarea and click "Send."
+2. *Career Suggestions:* The system generates career options based on your interests.
+3. *Educational Paths:* For the chosen careers, recommended education paths are provided.
+4. *Study Locations:* Suggested countries for pursuing the education are listed.
+5. *Visual Representation:* An image description related to your interests is generated.
 
-- **Conversational AI:** Powered by ChatGPT API keys, our website engages users in natural and informative conversations.
-  
-- **Career Guidance:** Get personalized advice on career selection based on your skills, interests, and goals.
+## Technologies Used
 
-- **Educational Pathways:** Explore recommended educational pathways that align with your chosen career.
+- *HTML/CSS/JavaScript:* For building the frontend.
+- *jQuery:* For handling DOM manipulations and events.
+- *OpenAI API:* To generate career advice, educational paths, and image descriptions.
+- *Fetch API:* To make HTTP requests to the OpenAI API.
 
-- **Job Prospects:** Gain insights into the job market for your chosen career, including potential growth and demand.
+## Setup
 
-- **Recommended Courses:** Access a curated list of courses that will enhance your skills and qualifications.
+1. *Clone the Repository:*
 
-- **International Opportunities:** Discover global opportunities related to your field of interest.
+    bash
+    git clone <repo>
+    
 
-## Getting Started
+2. *Navigate to the Project Directory:*
 
-To run this project locally, follow these steps:
+    bash
+    cd career-crafters
+    
 
-1. Clone the repository:
+3. **Open index.html in a Web Browser:**
 
-   ```bash
-   git clone https://github.com/your-username/CareerCrafters.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd CareerCrafters
-   ```
-
-3. Open `index.html` in your preferred web browser.
-
-## Dependencies
-
-- **ChatGPT API:** Obtain your ChatGPT API key [here](https://www.openai.com/api/).
+    You can open the index.html file directly in a web browser to see the project in action.
 
 ## Configuration
 
-1. Open the `config.js` file.
+- *API Keys:* Replace the placeholder API keys in index.js with your actual OpenAI API keys.
 
-2. Replace `YOUR_API_KEY_HERE` with your ChatGPT API key.
+    javascript
+    const OPENAI_API_KEY0 = 'your-openai-api-key';
+    const OPENAI_API_KEY1 = 'your-openai-api-key';
+    const OPENAI_API_KEY2 = 'your-openai-api-key';
+    const OPENAI_API_KEY3 = 'your-openai-api-key';
+    const OPENAI_API_KEY4 = 'your-openai-api-key';
+    
 
-```javascript
-// config.js
-const API_KEY = 'YOUR_API_KEY_HERE';
-```
+## Files
 
-3. Save the changes.
+- **index.html:** Main HTML file containing the structure of the web page.
+- **index.js:** JavaScript file handling the interaction with the OpenAI API and updating the UI.
+- **index.css:** CSS file for styling the webpage.
 
-## Usage
 
-Launch the website and start interacting with the conversational AI to receive personalized career advice, educational recommendations, and more.
 
