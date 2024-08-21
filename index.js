@@ -2,11 +2,11 @@ const setupTextarea = document.getElementById('setup-textarea');
 const setuploading = document.getElementById('loading-container');
 const setupInputContainer = document.getElementById('setup-input-container');
 const careerBossText = document.getElementById('movie-boss-text');
-const OPENAI_API_KEY0 = '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';
-const OPENAI_API_KEY1 = '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';
-const OPENAI_API_KEY2 = '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';
-const OPENAI_API_KEY3 = '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';
-const OPENAI_API_KEY4 = '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';
+const OPENAI_API_KEY0 = '';
+const OPENAI_API_KEY1 = '';
+const OPENAI_API_KEY2 = '';
+const OPENAI_API_KEY3 = '';
+const OPENAI_API_KEY4 = '';
 
 const url = "https://api.openai.com/v1/completions";
 const url1 = 'https://api.openai.com/v1/images/generations'
@@ -237,8 +237,6 @@ async function fetchImageUrl(imagePrompt){
   })
 }
 
-
-
 // Helper function to handle fetch and rate limits
 async function fetchAPI(url, options) {
   const response = await fetch(url, options);
@@ -255,4 +253,3 @@ async function fetchAPI(url, options) {
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
-
